@@ -1,0 +1,278 @@
+Received: from AS4P191MB2038.EURP191.PROD.OUTLOOK.COM (2603:10a6:20b:4c2::9)
+ by AS8P191MB1637.EURP191.PROD.OUTLOOK.COM with HTTPS; Tue, 18 Oct 2022
+ 08:28:06 +0000
+Received: from MW4PR03CA0105.namprd03.prod.outlook.com (2603:10b6:303:b7::20)
+ by AS4P191MB2038.EURP191.PROD.OUTLOOK.COM (2603:10a6:20b:4c2::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5723.30; Tue, 18 Oct
+ 2022 08:28:05 +0000
+Received: from MW2NAM04FT012.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:303:b7:cafe::89) by MW4PR03CA0105.outlook.office365.com
+ (2603:10b6:303:b7::20) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5723.31 via Frontend
+ Transport; Tue, 18 Oct 2022 08:28:04 +0000
+Authentication-Results: spf=fail (sender IP is 104.152.109.134)
+ smtp.mailfrom=pumaspeed.co.uk; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=none
+ header.from=pumaspeed.co.uk;compauth=fail reason=001
+Received-SPF: Fail (protection.outlook.com: domain of pumaspeed.co.uk does not
+ designate 104.152.109.134 as permitted sender)
+ receiver=protection.outlook.com; client-ip=104.152.109.134;
+ helo=ded3027.inmotionhosting.com;
+Received: from ded3027.inmotionhosting.com (104.152.109.134) by
+ MW2NAM04FT012.mail.protection.outlook.com (10.13.31.127) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5723.20 via Frontend Transport; Tue, 18 Oct 2022 08:28:04 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:E5EC6C30E1C5285ACB47069B771CCD7EC020F981BB2CE10C254163F3298CE4EE;UpperCasedChecksum:D52DCED203F6209BA1CE81DA5474F1D850CFD1FB988721AB3D976D2B3303768B;SizeAsReceived:1121;Count:15
+Received: from [127.0.0.1] (port=58261 helo=lame81)
+	by ded3027.inmotionhosting.com with smtp (Exim 4.95)
+	(envelope-from <info@pumaspeed.co.uk>)
+	id 1okfby-0000Gk-EB
+	for *****@hotmail.com;
+	Mon, 17 Oct 2022 22:57:57 -0700
+From: "=?utf-8?Q?info=40pumaspeed=2Eco=2Euk?=" <info@pumaspeed.co.uk> 
+To: "*****@hotmail.com" <*****@hotmail.com>
+Date: Tue, 18 Oct 2022 07:57:56 +0200
+Subject: =?utf-8?Q?Pumaspeed:=20Order=20tax=20refund=20=231192?=
+	=?utf-8?Q?0?=
+Content-Type: multipart/alternative;
+	boundary="_=aspNetEmail=_a045ddb89f804086a00a50db0a8f410f"
+Message-ID: <LAME81c18a89d0244a4c5987c475af0eb94bb3@lame81>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - ded3027.inmotionhosting.com
+X-AntiAbuse: Original Domain - hotmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - pumaspeed.co.uk
+X-Get-Message-Sender-Via: ded3027.inmotionhosting.com: acl_c_authenticated_local_user: root
+X-Authenticated-Sender: ded3027.inmotionhosting.com: root
+X-IncomingHeaderCount: 15
+Return-Path: info@pumaspeed.co.uk
+X-MS-Exchange-Organization-ExpirationStartTime: 18 Oct 2022 08:28:04.1686
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ f520dc65-aa9e-4f9b-bcba-08dab0e2ad39
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: MW2NAM04FT012:EE_|AS4P191MB2038:EE_
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM04FT012.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/18/2022 5:32:48 AM
+X-MS-Office365-Filtering-Correlation-Id: f520dc65-aa9e-4f9b-bcba-08dab0e2ad39
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 104.152.109.134
+X-SID-PRA: INFO@PUMASPEED.CO.UK
+X-SID-Result: FAIL
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 5
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Oct 2022 08:28:04.0592
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f520dc65-aa9e-4f9b-bcba-08dab0e2ad39
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM04FT012.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS4P191MB2038
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.3004930
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5723.033
+X-Microsoft-Antispam-Mailbox-Delivery:
+	wl:1;pcwl:1;rwl:0;ucf:0;jmr:0;ex:0;psp:0;auth:0;dest:I;OFR:TrustedSenderList;ENG:(5062000305)(90000117)(90010023)(91010020)(91040095)(5061607266)(5061608174)(9050020)(9100338)(2008001134)(4810004)(4910033)(9610025)(9560006)(10180021)(9440196)(9310011)(9220031);
+X-Message-Info:
+	qZelhIiYnPmNWrzijctZoN0nNWl7Ka811O4FQop4T2P8SzaZRX3O3R85XzKVPaU7O8BUh8PVy2/OLr4rlR2NAyF8XWAZ1JcO4M+qfKSYKWsd/GEsUABQ6aeMuLCy1Uz/oqd1liojLxzgJlOJUqsShFY5GW/7WB856iYkR6UDAo89W6aEuGCD07iDC/NKFiLmpbyDBlHBgfM6PwCZi+UkHw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0yO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?c0c5TGc5RmpjZDhDek9OK29nQXZaV2pTT1lvMjlpK2NyWUNDeUFaaWl0QUtx?=
+ =?utf-8?B?THlIbHcraS9RaktHaUlWd2xPOFQ5NEpMVnVhNXZKdkhEbkJwR2ZVVXlaSWlP?=
+ =?utf-8?B?VjdEUGRjdnluTWtkVmJLWmN6YmVZL2dmVmJSeStaQjFPYVFVUzRGUEFWaHV2?=
+ =?utf-8?B?Tkh1bzJrRmJ3MWVMOTRYNFJvemtsSUhKVUd5S25SU2ZnZVNhZ3RjOGJsN1hv?=
+ =?utf-8?B?cXV0dmRUcm5aUFI3QUJKQktoNEdsUDFNNDRoeTFhK3Q5Z0VGeGdqOXNHYXAr?=
+ =?utf-8?B?Uy84QzdVQWI4YW1tY25OcHFYaTBGZURXZ2JRc3V3Z2VrVFdIdkRkKzd0Q2k3?=
+ =?utf-8?B?SkticUNtSktkMnpIQysrVDV1cTV3b3RSV1k0NDJYb2orbDVyZWwyVERuZ0lL?=
+ =?utf-8?B?ZFJiaVpvMkdyRTAxWU9aTmk2WGtUQTNKdGsraXd4RFNzZGxxeW5UVTY4YVBv?=
+ =?utf-8?B?NmNGbFYvUVdtaUlzKzdnaTZyRHhLM0xlbTBEM2NmTXNHdkZDdU40MDR1RUpL?=
+ =?utf-8?B?OFpzVkVyQkNNR0diem03MFIxZlhUUW9SNXgvSUxtK200RGJwcllhMXhzZ1Fr?=
+ =?utf-8?B?TncxWnRRTTltQ1FhNXFNd3llRnAwZWJHODF4TjNMaW5sTEN4N1BDN09hdUsx?=
+ =?utf-8?B?NS9qOVFUVSs0MmErN2xSUGhIdzdNQXNNeWVkczBPWFdJcS9aTXJSU21KK1FN?=
+ =?utf-8?B?amFaS2xyMkRJQmdJRFUycTdDVE41NHNURHM0ZzlhZXUrMzhieTVNRW82cWNr?=
+ =?utf-8?B?YjRyYUtIWjM3dEJ6Nk5wR1J2S25HRU1PMHE2RjA5bDVYWVVqcnJ0RmFWT3lR?=
+ =?utf-8?B?MHFNbWRQK3J1MUZnRVBvRmNxdzVLelBTUUhsMlkyQmR6dnM2NHNmWHF2eWhi?=
+ =?utf-8?B?K001RVhBa1VjT2NWQS8wMGNucW00ZUNCVmFSZ2ZKTUlqaDI5dU5YUEdKNytm?=
+ =?utf-8?B?aGtJZy92T2lkUHlCckVzTUNuSWo3eW9XaDh4M3lKdWJHbTBUVjJ1T3RXS1Ba?=
+ =?utf-8?B?aG5hMUFYQU1kY3o1Mk9vTkpLNVpUMXZFRk1Pd2gwR1BQQnlnL2w3UEJtT0JM?=
+ =?utf-8?B?UXdFbzhZdTk3c1oxejhML3Niczg3L2hHQnUwbTBJRWxoSldqNzhUSCtSR1k4?=
+ =?utf-8?B?UmNLR1JOTEJGUkxuZG82SityRHAwcEUzM3R0akVCWW96aU42NFdMSkllbSt2?=
+ =?utf-8?B?dFBoMHlscERnd0pPQm5SMSsvQVVtNEJPQWZFYWVxaEsxOG0ySTJrd2V3Vkp5?=
+ =?utf-8?B?V0FQNS9kbys3VkVUaTZiekpqQ3F3cFNIMjZyZVdsZ2RIeStwK0lRQ0RoMjdQ?=
+ =?utf-8?B?dmN4TWoza1Z2bi9yUUtiVzNURXlxT1c1eFVMU1h2bGpPd3BGTjQ0UnFueFpq?=
+ =?utf-8?B?ODl2RjhSN2VZeE5BOTgwZ2svODhsZCtsRUdmTThmcjdwR1I1M3NFZnVDSDZj?=
+ =?utf-8?B?UTJwWGJ5TCtBb2pCN0RvRkNCVXhJK3pmQkpWNkpyQXNkdGNsc2s1YWhGVm8w?=
+ =?utf-8?B?VnBFd3hacThvcWJycmVFM0NtLzNlcnUxS0NPb3lmQ1YzbkI1OWR2aFpQZ291?=
+ =?utf-8?B?VFBaaVFJL01nMnAvMmhFL0RXRnFZbHExUTdKditOQ1Z6cTRSSzlVYmY2ejB2?=
+ =?utf-8?B?NjByZjRJZUhuZUZYNlRmNTVMTFdBU0RIOVV2dW1wTkVIditXalEvTzJUNGt4?=
+ =?utf-8?B?Vkdzb1k2YUFZOXl4UlJlTlVHZmpCM2xxSHcyTXZ3SGJ0RExXQTRPczZZd1pn?=
+ =?utf-8?B?Q3VlM3FtWlFCbzVBVzRMOS8rZ2pHUE1oN3F0emVZb2FjTGdWeVp3OVEweDFi?=
+ =?utf-8?B?MnRWb2RsM1Z6UWJOZnY5ZGd2dEhoQkNRckJVbnRyOUZxeFFHQTVZNzIvNitz?=
+ =?utf-8?B?Q2ltZjI1VVpnOVAwS05XUU5GUVVHaC83OVE1eFRCMVllZWRHdkZzb09rMDBP?=
+ =?utf-8?B?T3ZpMDZGUzNHV3Y5YW16WmtKWkxLVkhWaVlBMEFOZkRTenBwRVEraGJqMURR?=
+ =?utf-8?B?NjNuc0FSRHBiUXgvN0NnYk1uRHpacEFNdHpTcHRsWFhCSTVlTWVzbHdnb0Fp?=
+ =?utf-8?B?dk9TVEtMYWZPWkNPZTJza2JUZW8ycExTRGtpOVhJdzM4MXU4YTZ0OEhzUGVU?=
+ =?utf-8?B?NGpHd3dFcDJTRlBWa2pWaGp1d0NGc3JydXdHQ0pTWG5udlJCcDVxekN4bFk1?=
+ =?utf-8?B?S3NxbEFYS0hRNEdLUVJhd2poUWRBQlJGQTNzSVV0R05VZUhEbit4WmtESDcy?=
+ =?utf-8?B?VEZrVFlIRmNlZ29DWkd5czN6dUhpZGkyWVhva2E0czAyc01rQzJ4cjBEL25Z?=
+ =?utf-8?B?alQ2QVB1U0lod0F1Z01TRDNMbHZhMldMSjc4eGpLYXUzVzdsRUh0Uk9MOHZj?=
+ =?utf-8?B?cU1CWWs4SFgvbzR1MEhYa0lCSUk1VThEakZIS09HWHllK1A2RGozQzROSmZM?=
+ =?utf-8?B?UHFkTC9pdGlLdi9pOU1VeEp6UmVtaHNSRWRVVUpibE8xYXdaclRjRnBtbTBM?=
+ =?utf-8?B?U1RwUGFSTU93Q2NiTHJrZzBYL3JicnRZNjBlR1N2Zkx1L2J5MUZBVFcyM0Vt?=
+ =?utf-8?B?aGdYOHZ6Z1BESDRmM2Z1emxoSnQ3TVBRNW13Tk1LQzNoN1k3SVN4UklBT2xY?=
+ =?utf-8?B?RjdyUUJiTzRIWXNLcVlnRno1QSswdzRXZ242N240dGRiM0xUbG9jc0xlTi9H?=
+ =?utf-8?B?NUZxVHRNak5ZVzFZVFljM054aEljdlpWNi93UFVDaVdYdTBFUWNsYnBLZHVQ?=
+ =?utf-8?B?QUNGZFpWUkxQKzVzUnVOMlorNGpKOXNsVmpYL3F4WHBWejI4OHRia2xpL0pC?=
+ =?utf-8?B?RHRWdGNWYXZQQTdRRFlsNU1TWWQvOXBVZG9BSHVOcm83NUpoRUlBVnQwNXc3?=
+ =?utf-8?B?N1QzSjVSWXNwM3hNbkxFYmNPQT09?=
+MIME-Version: 1.0
+
+--_=aspNetEmail=_a045ddb89f804086a00a50db0a8f410f
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head>
+<body><span style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: no=
+rmal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 40=
+0; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY=
+: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px">Your=20
+Order / Invoice tax refund Reference is .. #81942</span><br style=3D"FONT-S=
+IZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TE=
+XT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: nor=
+mal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><br s=
+tyle=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SP=
+ACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); F=
+ONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDE=
+NT: 0px"><span style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE:=
+ normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT:=
+ 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISP=
+LAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px">Please=20
+keep it for future reference.</span><br style=3D"FONT-SIZE: medium; FONT-FA=
+MILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; =
+FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WID=
+OWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><br style=3D"FONT-SIZE: m=
+edium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRA=
+NSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; O=
+RPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><span style=
+=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(69,=
+69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !importa=
+nt; LETTER-SPACING: normal; TEXT-INDENT: 0px">*****************************=
+*****************************</span><br style=3D"FONT-SIZE: medium; FONT-FA=
+MILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; =
+FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WID=
+OWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><br style=3D"FONT-SIZE: m=
+edium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRA=
+NSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; O=
+RPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><span style=
+=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(69,=
+69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !importa=
+nt; LETTER-SPACING: normal; TEXT-INDENT: 0px">Many=20
+thanks for using the Pumaspeed Webshop, Our accounting system has detected =
+that=20
+you have paid tax twice on your last order.</span><br style=3D"FONT-SIZE: m=
+edium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRA=
+NSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; O=
+RPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><span style=
+=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(69,=
+69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !importa=
+nt; LETTER-SPACING: normal; TEXT-INDENT: 0px">Please=20
+be advised that you are entitled to receive of&nbsp; =C2=A342.00 Tax=20
+refund.</span><br style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPA=
+CE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLO=
+R: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING=
+: normal; TEXT-INDENT: 0px"><br style=3D"FONT-SIZE: medium; FONT-FAMILY: Ar=
+ial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEI=
+GHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; =
+LETTER-SPACING: normal; TEXT-INDENT: 0px"><span style=3D"FONT-SIZE: medium;=
+ FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM=
+: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: no=
+rmal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: no=
+rmal; TEXT-INDENT: 0px">Click=20
+the link below and follow up refund process</span><br style=3D"FONT-SIZE: m=
+edium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRA=
+NSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; O=
+RPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><br style=
+=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-=
+STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: =
+0px"><a style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal=
+; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; FONT-STYLE: no=
+rmal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px" href=
+=3D"https://www.boxshitprod.com/wp-admin/maint/units/includes/pumaspeedcouk=
+/" rel=3D"noreferrer noopener" target=3D"_blank">https://www.pumaspeed.co.u=
+k/refund/double?token=3DX1WZN0Vl3</a><br style=3D"FONT-SIZE: medium; FONT-F=
+AMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><br style=3D"FONT-SIZE: =
+medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; =
+ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><span styl=
+e=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACI=
+NG: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(69=
+,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !import=
+ant; LETTER-SPACING: normal; TEXT-INDENT: 0px">Please=20
+note that the refund link will be valid only for 48 hours.</span><br style=
+=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-=
+STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: =
+0px"><br style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69=
+,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal;=
+ TEXT-INDENT: 0px"><span style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WH=
+ITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FO=
+NT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOW=
+S: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px"=
+>This=20
+is an automatically generated email, please do not reply.</span><br style=
+=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-=
+STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: =
+0px"><br style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69=
+,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal;=
+ TEXT-INDENT: 0px"><br style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHIT=
+E-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400;=
+ COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SP=
+ACING: normal; TEXT-INDENT: 0px"><span style=3D"FONT-SIZE: medium; FONT-FAM=
+ILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; F=
+LOAT: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORP=
+HANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEX=
+T-INDENT: 0px">Thank=20
+you for shopping with Pumaspeed.</span><br style=3D"FONT-SIZE: medium; FONT=
+-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: non=
+e; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; =
+WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><br style=3D"FONT-SIZE=
+: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(69,69,69); FONT-STYLE: normal=
+; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px"><span st=
+yle=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPA=
+CING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(=
+69,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !impo=
+rtant; LETTER-SPACING: normal; TEXT-INDENT: 0px">The=20
+Pumaspeed Team.</span><br style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(69,69,69); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER=
+-SPACING: normal; TEXT-INDENT: 0px"><br><br>.<br><br></body></html>
+
+
+--_=aspNetEmail=_a045ddb89f804086a00a50db0a8f410f--
